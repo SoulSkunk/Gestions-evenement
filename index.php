@@ -8,8 +8,7 @@ include 'functions.php';
 <?=template_header('Home')?>
 
 <div class="content">
-	<h2>Accueil</h2>
-	<p>bienvenue!</p>
+    <img src="./images/logo.png" alt="" class="">
 </div>
 
 <?=template_footer()?>
