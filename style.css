@@ -1,0 +1,372 @@
+h5 {
+  text-align: center;
+  color: #32a367;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen,
+    ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial,
+    sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+.navtop {
+  background-color: #3f69a8;
+  height: 60px;
+  width: 100%;
+  border: 0;
+}
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+.navtop div h1,
+.navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+.navtop div h1 {
+  flex: 1;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-weight: normal;
+}
+.navtop div a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #dbdbdb;
+  font-weight: bold;
+}
+.navtop div a i {
+  padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+  color: #ffffff;
+}
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #ebebeb;
+  color: #666666;
+}
+.read .create-contact {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3f69a8;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+span {
+  font-size: 20px;
+}
+
+.read .create-contact:hover {
+  background-color: #3247a3;
+}
+.read .pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+.read .pagination a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #a5a7a9;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin: 15px 0 15px 5px;
+}
+.read .pagination a:hover {
+  background-color: #999b9d;
+}
+.read table {
+  width: 100%;
+  padding-top: 30px;
+  border-collapse: collapse;
+}
+.read table thead {
+  background-color: #ebeef1;
+  border-bottom: 1px solid #d3dae0;
+}
+.read table thead td {
+  padding: 10px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 14px;
+  background: #3f69a8;
+}
+.read table tbody tr {
+  border-bottom: 1px solid #d3dae0;
+}
+.read table tbody tr:nth-child(even) {
+  background-color: #fbfcfc;
+}
+.read table tbody tr:hover {
+  background-color: #a0a0a0c8;
+}
+.read table tbody tr:hover td {
+  color: #ffffff;
+}
+.read table tbody tr:hover td:nth-child(1) {
+  color: #ffffff;
+}
+.read table tbody tr td {
+  padding: 10px;
+}
+.read table tbody tr td:nth-child(1) {
+  color: #a5a7a9;
+}
+.read table tbody tr td.actions {
+  padding: 8px;
+  text-align: right;
+  display: flex;
+}
+.read table tbody tr td.actions .edit,
+.read table tbody tr td.actions .trash {
+  display: inline-flex;
+  text-align: right;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 12px;
+  margin: 1px;
+  border-radius: 50%;
+}
+.read table tbody tr td.actions .trash {
+  background-color: #f30808;
+}
+.read table tbody tr td.actions .trash:hover {
+  background-color: #a33131;
+}
+.read table tbody tr td.actions .edit {
+  background-color: #3f69a8;
+}
+.read table tbody tr td.actions .edit:hover {
+  background-color: #365a8f;
+}
+.update form {
+  padding: 15px 0;
+  display: flex;
+  flex-flow: wrap;
+}
+.update form label {
+  display: inline-flex;
+  width: 400px;
+  padding: 10px 0;
+  margin-right: 25px;
+}
+.update form input {
+  padding: 10px;
+  width: 400px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+}
+.update form input[type="submit"] {
+  display: block;
+  background-color: #38b673;
+  border: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+  width: 200px;
+  margin-top: 15px;
+}
+.update form input[type="submit"]:hover {
+  background-color: #32a367;
+}
+.delete .yesno {
+  display: flex;
+  justify-content: center;
+}
+.delete .yesno a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3f69a8 !important;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px 15px;
+  margin: 15px 10px 15px 0;
+  border-radius: 5px;
+}
+.delete .yesno a:hover {
+  background-color: #365a8f !important;
+}
+
+/**
+ * Style formulaire produit
+ */
+
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Main container */
+#mainContainer {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  #mainContainer {
+    padding: 100px 0px 0px 0px;
+  }
+}
+
+/* Champs de saisie */
+#mainContainer input,
+#mainContainer select,
+#mainContainer button {
+  outline: none;
+}
+
+/* Contenu principal */
+#mainContainer .main-content {
+  background-color: white;
+  box-shadow: 5px 4px 8px #d6d6d6;
+  min-height: 60vh;
+  border-radius: 10px;
+}
+
+/* En-tête */
+#mainContainer .main-content .heading {
+  margin: 10px 0px 20px 0px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  background-color: #3f69a8;
+  color: white;
+  border-bottom: 5px solid #5087da;
+  border-radius: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#mainContainer .main-content .heading .material-icons {
+  padding-right: 10px;
+  color: #ffffff;
+}
+
+/* Ajout de produit */
+#mainContainer .main-content .content .product-form .input-row {
+  margin: 20px 30px;
+  display: flex;
+}
+
+#mainContainer .main-content .content .product-form .input-row .input-group {
+  margin: 0px 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContainer .input-row .input-group label {
+  color: #797979;
+  font-size: 1rem;
+}
+
+#mainContainer
+  .main-content
+  .content
+  .product-form
+  .input-row
+  .input-group
+  input,
+#mainContainer
+  .main-content
+  .content
+  .product-form
+  .input-row
+  .input-group
+  select {
+  border: 1px solid #868686;
+  border-radius: 7px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+#mainContainer .main-content .content .product-form .validate-button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color linear 0.2s, color linear 0.2s;
+  width: 200px;
+  margin: auto;
+  display: block;
+  background-color: transparent;
+  margin-top: 40px;
+  border: none;
+}
+
+#mainContainer .main-content .content .product-form .validate-button:hover {
+  background-color: #3f69a8;
+  color: white;
+  transition: background-color linear 0.2s, color linear 0.2s;
+  cursor: pointer;
+}
+
+.input-groupe {
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+  margin: 1px;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #3f69a8;
+  font-weight: bold;
+}
+
+.textsupp {
+  text-align: center;
+  margin: 130px;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  background: rgb(45 111 18);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.textsuppe {
+  text-align: center;
+  margin: 130px;
+  font-size: 30px;
+  color: white;
+  font-family: sans-serif;
+  background: #f30808;
+  border-radius: 8px;
+  padding: 10px;
+}

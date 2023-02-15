@@ -1,0 +1,19 @@
+===Base de données phpproduit
+
+== Structure de la table produits
+
+|------
+|Colonne|Type|Null|Valeur par défaut
+|------
+|//**id**//|int|Non|
+|created|datetime|Non|CURRENT_TIMESTAMP
+|produit|varchar(255)|Non|
+|type|varchar(255)|Non|
+|stock|varchar(255)|Non|
+|prixachat|varchar(255)|Non|
+|prixvente|varchar(255)|Non|
+|marge|varchar(255)|Non|
+|degres|varchar(255)|Non|
+== Déchargement des données de la table produits
+
+|41|2023-02-12 10:53:00|coca|Boisson Non-alcoolisée|50|120|2001|0|0
