@@ -17,7 +17,7 @@ if (!empty($_POST)) {
     $stmt = $pdo->prepare('INSERT INTO produits VALUES (?, ?, ?, ?, ?)');
     $stmt->execute([$id, $nom, $mail, $mot_de_passe, $score]);
     // message de sortie
-    $msg = 'Créé avec succès!';
+    $msg = 'Créé avec succè!';
 }
 ?>
 
